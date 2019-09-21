@@ -8,7 +8,7 @@
 #
 
 # Location of your dotfiles in $HOME
-# DOTFILES=.dotfiles
+DOTFILES=.dotfiles
 
 # dotfiles to symlink
 #
@@ -74,6 +74,11 @@ dotsyncrc
 #zsh/zprofile
 #zsh/zshenv
 #zsh/zshrc
+git/gitconfig
+git/gitignore
+git/gitattributes
+vim/dotvim:.vim
+vim/vimrc
 [endfiles]
 
 # Hosts to sync
@@ -88,5 +93,5 @@ dotsyncrc
 #host7.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 #host8.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 #host9.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
+bradley-HP-ENVY-17-Notebook-PC   git=ANY
 [endhosts]
-
