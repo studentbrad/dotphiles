@@ -22,8 +22,6 @@ if has("user_commands")
   source ~/.vim/vundles.vim
   " Add extra bundles here...
   " Bundle 'reponame'
-  " Bundle 'vim-airline/vim-airline'
-  Bundle 'vim-airline/vim-airline-themes'
 endif
 
 " Customize to your needs...
