@@ -24,9 +24,7 @@ if [[ -f $DIR/packages/apt ]]; then
   while read line
   do
     if [[ ! "$line" =~ (^#|^$) ]]; then
-      packages="$packages $line"
+      $line
     fi
   done
-  sudo apt-get install $packages
 fi
-

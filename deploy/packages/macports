@@ -7,19 +7,18 @@
 #    Ben O'Hara <bohara@gmail.com>
 #
 
-#coreutils
-#screen
-#elinks +col256
-#mutt-devel +sasl +ssl +smtp +sidebar +headercache +tokyocabinet +gpgme
-#irssi
-#proctools
-#mtr
-#wget
-#tmux
-#tmux-pasteboard
-#gnupg
-#ipcalc
-#grc
-#bash
-#zsh
-
+#sudo port install coreutils
+#sudo port install screen
+#sudo port install elinks +col256
+#sudo port install mutt-devel +sasl +ssl +smtp +sidebar +headercache +tokyocabinet +gpgme
+#sudo port install irssi
+#sudo port install proctools
+#sudo port install mtr
+#sudo port install wget
+#sudo port install tmux
+#sudo port install tmux-pasteboard
+#sudo port install gnupg
+#sudo port install ipcalc
+#sudo port install grc
+#sudo port install bash
+#sudo port install zsh

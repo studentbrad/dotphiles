@@ -724,7 +724,7 @@ if [[ -f $DIR/packages/macports ]]; then
   while read line
   do
     if [[ ! "$line" =~ (^#|^$) ]]; then
-      sudo port install $line
+      $line
     fi
   done
 fi
@@ -738,7 +738,7 @@ if [[ -f $DIR/packages/homebrew ]]; then
   while read line
   do
     if [[ ! "$line" =~ (^#|^$) ]]; then
-      brew install $line
+      $line
     fi
   done
 fi
