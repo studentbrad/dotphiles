@@ -30,6 +30,9 @@ sudo add-apt-repository ppa:noobslab/icons
 sudo apt-get update
 sudo apt-get install arc-icons -y
 
+# install crontab
+sudo apt-get install cron
+
 # install docker
 sudo apt-get update -y
 sudo apt-get remove docker docker-engine docker.io -y
@@ -50,3 +53,7 @@ sudo apt-get install texlive-full -y --no-install-recommends
 # install zsh
 sudo apt-get update -y
 sudo apt-get install zsh -y
+
+# install snap
+sudo apt-get update -y
+sudo apt install snapd

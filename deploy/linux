@@ -28,3 +28,17 @@ if [[ -f $DIR/packages/apt ]]; then
     fi
   done
 fi
+
+###############################################################################
+# snap
+###############################################################################
+
+if [[ -f $DIR/packages/snap ]]; then
+  exec<$DIR/packages/snap
+  while read line
+  do
+    if [[ ! "$line" =~ (^#|^$) ]]; then
+      $line
+    fi
+  done
+fi

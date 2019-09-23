@@ -109,6 +109,7 @@ zsh/zlogout
 zsh/zprofile
 zsh/zshenv
 zsh/zshrc
+matplotlib/matplotlibrc
 [endfiles]
 
 # Hosts to sync
