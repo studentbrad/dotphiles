@@ -42,3 +42,4 @@ if [[ -f $DIR/packages/snap ]]; then
     fi
   done
 fi
+

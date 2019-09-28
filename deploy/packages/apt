@@ -55,10 +55,16 @@ sudo apt-get install inkscape -y
 # install latex
 sudo apt-get install texlive-full -y --no-install-recommends
 
+# install snap
+sudo apt-get update -y
+sudo apt install snapd -y
+
+# install touchpad-indicator
+sudo add-apt-repository ppa:atareao/atareao
+sudo apt update -y
+sudo apt install touchpad-indicator -y
+
 # install zsh
 sudo apt-get update -y
 sudo apt-get install zsh -y
 
-# install snap
-sudo apt-get update -y
-sudo apt install snapd

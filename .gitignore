@@ -18,6 +18,8 @@ ssh/id*
 ssh/environment*
 ssh/known_hosts
 ssh/master/*
+sublime/User/Package\ Control.cache/*
+sublime/User/Package\ Control.last-run
 subversion/README.txt
 subversion/auth/*
 gnupg/crls.d/*
