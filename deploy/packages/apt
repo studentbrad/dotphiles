@@ -47,6 +47,11 @@ sudo apt-get install gnome-tweaks -y
 sudo apt-get update -y
 sudo apt-get install ghostscript -y
 
+# install inkscape
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt-get update -y
+sudo apt-get install inkscape -y
+
 # install latex
 sudo apt-get install texlive-full -y --no-install-recommends
 
