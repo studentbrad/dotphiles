@@ -15,8 +15,8 @@
 
 # install apt-fast
 # sudo add-apt-repository ppa:apt-fast/stable
-# sudo apt-get update
-# sudo apt-get -y install apt-fast
+# sudo apt update
+# sudo apt -y install apt-fast
 
 # install arc theme
 sudo rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
@@ -24,39 +24,42 @@ rm -rf ~/.local/share/themes/{Arc,Arc-Darker,Arc-Dark}
 rm -rf ~/.themes/{Arc,Arc-Darker,Arc-Dark}
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
 sudo add-apt-repository ppa:noobslab/themes
-sudo apt-get update
-sudo apt-get install arc-theme -y
+sudo apt update -y
+sudo apt install arc-theme -y
 sudo add-apt-repository ppa:noobslab/icons
-sudo apt-get update
-sudo apt-get install arc-icons -y
+sudo apt update -y
+sudo apt install arc-icons -y
 
 # install crontab
-sudo apt-get install cron
+sudo apt install cron
 
 # install docker
-sudo apt-get update -y
-sudo apt-get remove docker docker-engine docker.io -y
+sudo apt update -y
+sudo apt remove docker docker-engine docker.io -y
 sudo apt install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
 
 #install gnome-tweaks
-sudo apt-get install gnome-tweaks -y
+sudo apt install gnome-tweaks -y
 
 # install ghostscript
-sudo apt-get update -y
-sudo apt-get install ghostscript -y
+sudo apt update -y
+sudo apt install ghostscript -y
 
 # install inkscape
 sudo add-apt-repository ppa:inkscape.dev/stable
-sudo apt-get update -y
-sudo apt-get install inkscape -y
+sudo apt update -y
+sudo apt install inkscape -y
+
+# install java
+sudo apt install default-jre -y
 
 # install latex
-sudo apt-get install texlive-full -y --no-install-recommends
+sudo apt install texlive-full -y --no-install-recommends
 
 # install snap
-sudo apt-get update -y
+sudo apt update -y
 sudo apt install snapd -y
 
 # install touchpad-indicator
@@ -64,7 +67,15 @@ sudo add-apt-repository ppa:atareao/atareao
 sudo apt update -y
 sudo apt install touchpad-indicator -y
 
+# install vscode
+sudo apt update -y
+sudo apt install software-properties-common apt-transport-https wget -y
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update -y
+sudo apt install code -y
+
 # install zsh
-sudo apt-get update -y
-sudo apt-get install zsh -y
+sudo apt update -y
+sudo apt install zsh -y
 
