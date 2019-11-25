@@ -16,7 +16,7 @@ fi
 DIR=$(cd $(dirname "$0"); pwd)
 
 ###############################################################################
-# apt-get
+# apt
 ###############################################################################
 
 if [[ -f $DIR/packages/apt ]]; then
@@ -24,7 +24,10 @@ if [[ -f $DIR/packages/apt ]]; then
   while read line
   do
     if [[ ! "$line" =~ (^#|^$) ]]; then
-      $line
+      if [[ -f $DIR/packages/apt-preinstall/"$line" ]]; then
+        bash $DIR/packages/apt-preinstall/"$line"
+      fi
+      apt install $line -y
     fi
   done
 fi
@@ -38,8 +41,7 @@ if [[ -f $DIR/packages/snap ]]; then
   while read line
   do
     if [[ ! "$line" =~ (^#|^$) ]]; then
-      $line
+      snap install $line --classic
     fi
   done
 fi
-

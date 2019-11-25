@@ -7,24 +7,17 @@
 #    Ben O'Hara <bohara@gmail.com>
 #
 
-#sudo snap install intellij-idea-community
-#sudo snap install pycharm-community
-#sudo snap install slack
-#sudo snap install spotify
-#sudo snap install sublime-text
+# intellij-idea-community
+# pycharm-community
+# slack
+# spotify
+# sublime-text
 
-# install intellij
-sudo snap install intellij-idea-community --classic --edge
-
-# install pycharm
-sudo snap install pycharm-community --classic
-
-# install slack
-sudo snap install slack --classic
-
-# install spotify
-sudo snap install spotify --classic
-
-# install sublime-text
-sudo snap install sublime-text --classic
-
+android-studio
+code
+inkscape
+intellij-idea-community
+pycharm-community
+slack
+spotify
+sublime-text

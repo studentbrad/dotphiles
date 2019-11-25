@@ -1,0 +1,11 @@
+#
+# dotphiles : https://github.com/dotphiles/dotphiles
+#
+# package pre-installation to be install with apt
+#
+# Authors:
+#    Ben O'Hara <bohara@gmail.com>
+#
+
+add-apt-repository ppa:atareao/atareao -y
+apt update -y

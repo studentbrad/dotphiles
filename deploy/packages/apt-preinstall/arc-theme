@@ -1,0 +1,15 @@
+#
+# dotphiles : https://github.com/dotphiles/dotphiles
+#
+# package pre-installation to be install with apt
+#
+# Authors:
+#    Ben O'Hara <bohara@gmail.com>
+#
+
+rm -rf /usr/share/themes/{Arc,Arc-Darker,Arc-Dark}
+rm -rf ~/.local/share/themes/{Arc,Arc-Darker,Arc-Dark}
+rm -rf ~/.themes/{Arc,Arc-Darker,Arc-Dark}
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+add-apt-repository ppa:noobslab/themes -y
+apt update -y
