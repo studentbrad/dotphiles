@@ -1,0 +1,23 @@
+#
+# dotphiles : https://github.com/dotphiles/dotphiles
+#
+# packages to be install with pip
+#
+# Authors:
+#    Ben O'Hara <bohara@gmail.com>
+#
+
+#matplotlib
+#numpy
+#requests
+#scikit-learn
+#scipy
+
+beautifulsoup4
+geopy
+howdoi
+matplotlib
+numpy
+requests
+scikit-learn
+scipy

@@ -7,11 +7,11 @@
 #    Ben O'Hara <bohara@gmail.com>
 #
 
-# apt install zsh
-# apt install git
-# apt install vim
-# apt install tmux
-# apt install nmap
+#zsh
+#git
+#vim
+#tmux
+#nmap
 
 arc-theme
 arc-icons
@@ -23,6 +23,8 @@ docker.io
 gnome-tweaks
 ghostscript
 icedtea-netx
+python-pip
+python3-pip
 snapd
 texlive-full
 touchpad-indicator

@@ -109,6 +109,8 @@ commiting that you dont include any personal info you dont want in public!
     - `packages/macports` add ports to be installed by `osx` (select one)
     - `packages/homebrew` add brews to be installed by `osx` (select one)
     - `packages/apt` add packages to be installed by `linux` on apt based systems
+    - `packages/pip` add packages to be installed by `pip`
+    - `packages/snap` add packages to be installed by `snap`
 
 ### dotsync
 
@@ -208,8 +210,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 [1]: https://github.com
 [2]: https://github.com/dotphiles/dotsync
 [3]: https://github.com/dotphiles/dotzsh
-[4]: https://github.com/dotphiles/dotvim
+[4]: https://github.com/studentbrad/dotvim
 [5]: https://github.com/chriskempson/base16
 [6]: https://github.com/Lokaltog/powerline-fonts
-[7]: https://github.com/dotphiles/dotphiles/graphs/contributors
-  
+[7]: https://github.com/studentbrad/dotphiles/graphs/contributors

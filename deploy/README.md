@@ -25,3 +25,14 @@ Setup Linux with sensible default options
 
 Install required packages using apt
 
+#### note
+
+Pre-installations are stored as shell files in *packages/apt-preinstall*
+
+### packages/pip
+
+Install required packages using pip
+
+### packages/snap
+
+Install required packages using snap

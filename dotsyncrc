@@ -16,8 +16,7 @@ DOTFILES=.dotfiles
 # dstfile will be '.$srcfile' by default (with path removed)
 #
 [files]
-# Uncomment examples below
-dotsyncrc
+#dotsyncrc
 #ack/ackrc
 #aptitude
 #bin:bin
@@ -74,6 +73,8 @@ dotsyncrc
 #zsh/zprofile
 #zsh/zshenv
 #zsh/zshrc
+
+dotsyncrc
 git/gitconfig
 git/gitignore
 git/gitattributes
