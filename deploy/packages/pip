@@ -14,10 +14,13 @@
 #scipy
 
 beautifulsoup4
+geojson
 geopy
 howdoi
 matplotlib
 numpy
+pytest
 requests
+utm
 scikit-learn
 scipy
