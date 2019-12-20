@@ -111,6 +111,7 @@ zsh/zprofile
 zsh/zshenv
 zsh/zshrc
 matplotlib/matplotlibrc
+wallpaper
 [endfiles]
 
 # Hosts to sync
