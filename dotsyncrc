@@ -128,3 +128,4 @@ wallpaper
 #host9.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 bradley-HP-ENVY-17-Notebook-PC   git=ANY
 [endhosts]
+
