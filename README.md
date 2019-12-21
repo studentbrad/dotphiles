@@ -208,9 +208,10 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [1]: https://github.com
-[2]: https://github.com/dotphiles/dotsync
+[2]: https://github.com/studentbrad/dotsync
 [3]: https://github.com/dotphiles/dotzsh
 [4]: https://github.com/studentbrad/dotvim
 [5]: https://github.com/chriskempson/base16
 [6]: https://github.com/Lokaltog/powerline-fonts
 [7]: https://github.com/studentbrad/dotphiles/graphs/contributors
+

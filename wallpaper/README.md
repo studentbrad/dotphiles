@@ -15,3 +15,4 @@ To use, add the following to **dotsyncrc**
 Credit to [Louis Coyle][1] for this artwork
 
 [1]: https://imgur.com/a/xTUEf
+
