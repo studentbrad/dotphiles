@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#
+# dotphiles : https://github.com/dotphiles/dotphiles
+#
+# Script to configure gnome settings
+#
+# Authors:
+#   Ben O'Hara <bohara@gmail.com>
+#
+
+gsettings set org.gnome.desktop.background picture-uri ~/wallpaper/wallpaper.xml
+gsettings set org.gnome.desktop.screensaver picture-uri ~/wallpaper/wallpaper.xml
+gsettings set org.gnome.desktop.interface gtk-theme 'Arc'
+gsettings set org.gnome.desktop.interface icon-theme 'Uniform+'
+gsettings set org.gnome.desktop.wm.preferences theme 'Ambiance'
+gsettings set org.gnome.desktop.interface cursor-theme 'DMZ-White'
+

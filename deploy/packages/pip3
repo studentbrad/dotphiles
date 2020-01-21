@@ -14,10 +14,13 @@
 #scipy
 
 beautifulsoup4
+Flask
 geojson
 geopy
 howdoi
+jupyter
 matplotlib
+marshmallow-jsonapi
 numpy
 pytest
 requests

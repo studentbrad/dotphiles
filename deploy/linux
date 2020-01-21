@@ -33,15 +33,15 @@ if [[ -f $DIR/packages/apt ]]; then
 fi
 
 ###############################################################################
-# pip
+# pip3
 ###############################################################################
 
-if [[ -f $DIR/packages/pip ]]; then
-  exec<$DIR/packages/pip
+if [[ -f $DIR/packages/pip3 ]]; then
+  exec<$DIR/packages/pip3
   while read line
   do
     if [[ ! "$line" =~ (^#|^$) ]]; then
-      pip install $line
+      pip3 install $line
     fi
   done
 fi
