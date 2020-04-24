@@ -52,13 +52,24 @@
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
 
 [diff]
-    tool = vimdiff
+    tool = meld
+
+[difftool "meld"]
+    cmd = meld \"$LOCAL\" \"$REMOTE\" --label \"DIFF (ORIGINAL MY)\"
 
 [difftool]
     prompt = false
 
 [merge]
-    tool = vimdiff
+    tool = meld
+
+[mergetool "meld"]
+    cmd = meld --auto-merge \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output \"$MERGED\" --label \"MERGE (REMOTE BASE MY)\"
+    trustExitCode = false
+
+[mergetool]
+    prompt = false
+    keepBackup = false
 
 [alias]
     # branch
