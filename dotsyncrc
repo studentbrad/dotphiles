@@ -127,5 +127,6 @@ wallpaper
 #host8.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 #host9.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 bradley-HP-ENVY-17-Notebook-PC   git=ANY
+bradley-ThinkPad-E14             git=ANY
 [endhosts]
 
