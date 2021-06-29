@@ -9,7 +9,7 @@
 
 # Global Config
 [user]
-    email = studentbrad.github@gmail.com
+    email = bradleykohler96@gmail.com
     name = studentbrad
 
 [branch "master"]
@@ -156,3 +156,8 @@
 [url "git@github.com:"]
     insteadof = github:
 
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

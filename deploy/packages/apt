@@ -23,6 +23,7 @@ gnome-tweaks
 ghostscript
 icedtea-netx
 meld
+octave
 onedrive
 pdfgrep
 python-pip
@@ -31,5 +32,6 @@ snapd
 texlive-full
 touchpad-indicator
 uniform-icons
+virtualenv
 zsh
 
